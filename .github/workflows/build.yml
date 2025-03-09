@@ -11,7 +11,6 @@ jobs:
     runs-on: windows-latest
     strategy:
       matrix:
-        backend: [opengl]
         include:
           - backend: opengl
             artifact_name: zed-release-opengl
